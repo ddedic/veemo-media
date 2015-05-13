@@ -1,0 +1,40 @@
+{
+    "name": "ddedic/veemo-media",
+    "description": "Veemo Media management package",
+    "keywords": [
+        "veemo",
+        "veemo-media"
+    ],
+    "homepage": "https://github.com/ddedic/veemo-media",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danijel Dedic",
+            "email": "dedic.d@gmail.com",
+            "homepage": "http://ddedic.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Veemo\\Media\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Veemo\\Media\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
